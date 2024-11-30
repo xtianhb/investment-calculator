@@ -1,9 +1,8 @@
 experiments:
   test:
-    ticker_symbol: VOO
+    ticker_symbol: VOO #SP500
     start_date: "2017-10-15"
     end_date: "2021-10-15"
-    compound: monthtly
-    initial_contribution: 1.0
-    periodic_contribution: 290.0
-    
+    interval_contribution: 1mo # 1 month
+    initial_contribution: 0.0
+    periodic_contribution: 270.0
