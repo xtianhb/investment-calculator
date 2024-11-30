@@ -1,0 +1,9 @@
+experiments:
+  test:
+    ticker_symbol: VOO
+    start_date: "2017-10-15"
+    end_date: "2021-10-15"
+    compound: monthtly
+    initial_contribution: 1.0
+    periodic_contribution: 290.0
+    
